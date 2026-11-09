@@ -1,0 +1,4 @@
+# Variante local del modelo con contexto ampliado para el asistente de becas.
+# Crear con:  ollama create becas-qwen2.5 -f Modelfile
+FROM qwen2.5:7b
+PARAMETER num_ctx 16384
